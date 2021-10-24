@@ -2,18 +2,21 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/JamesVacl/Personal-Site",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "bootstrap": "^5.0.2",
-    "next": "^11.0.1",
+    "gh-pages": "^3.2.3",
+    "next": "^11.1.2",
     "next-seo": "^4.26.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
