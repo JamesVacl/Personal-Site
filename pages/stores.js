@@ -12,7 +12,7 @@ export default function Stores() {
       <Container>
         <Row>
           <Col className='col-lg-4'>
-            <img src='/digitalme.png' className='background-image' />
+            <img src='/digitalme.png' className='background-image' alt="" />
           </Col>
           <Col className='col-lg-8 storeTitle'>
             <h1>Having Trouble Finding a Job? I can Help!</h1>
@@ -28,7 +28,7 @@ export default function Stores() {
         <Row className='gumroad'>
           <Col className='col-lg-3'>
             <Card className='cardGum zoom'>
-              <img className='card-img-top embed-responsive-item cardGum' src='/ebook_coverpage.jpg' />
+              <img className='card-img-top embed-responsive-item cardGum' src='/ebook_coverpage.jpg' alt="Cover page of my E-book" />
               <div className='card-body'>
                 <h5 className='card-title'></h5>
                 <p className='card-text'>In this ebook, I give advice on how to write resumes/cover letters, how to prepare for interviews, and how to get an edge over other applicants.</p>
@@ -39,7 +39,7 @@ export default function Stores() {
 
           <Col className='col-lg-3'>
             <Card className='cardGum zoom'>
-              <img className='card-img-top embed-responsive-item cardGum' src='/Resume_IMG.jpg' />
+              <img className='card-img-top embed-responsive-item cardGum' src='/Resume_IMG.jpg' alt="" />
               <div className='card-body'>
                 <h5 clasName='card-title'>Resume Template</h5>
                 <p className='card-text'>I have created a simple but effective resume template to help you succeed in your job hunt. </p>
@@ -50,7 +50,7 @@ export default function Stores() {
 
           <Col className='col-lg-3'>
             <Card className='cardGum zoom'>
-              <img className='card-img-top embed-responsive-item cardGum' src='/CoverLetter_IMG.jpg' />
+              <img className='card-img-top embed-responsive-item cardGum' src='/CoverLetter_IMG.jpg' alt="" />
               <div className='card-body'>
                 <h5 clasName='card-title'>Cover Letter Template</h5>
                 <p className='card-text'>Use my cover letter template to increase your chance at getting noticed by employers </p>

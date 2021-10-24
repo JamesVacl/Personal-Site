@@ -41,7 +41,7 @@ export default function Home() {
 
           </Col>
           <Col className='homepage col-lg-6'>
-            <img className='img-fluid img-responsive shadow fade-in-fwd' src='/jv-intro.jpg'></img>
+            <img className='img-fluid img-responsive shadow fade-in-fwd' src='/jv-intro.jpg' alt="James with a dog" ></img>
           </Col>
         </Row>
       </Container>

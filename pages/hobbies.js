@@ -24,7 +24,7 @@ export default function Hobbies() {
               <Button className="btn-info fa fa-github" href='https://github.com/JamesVacl' target="_blank" rel="noopener noreferrer"> GitHub </Button>
             </Col>
             <Col className='codepic col-lg-5 text-center'>
-              <img className='rounded-circle shadow p-1 mb-1 bg-white zoom' src='/coding.png' />
+              <img className='rounded-circle shadow p-1 mb-1 bg-white zoom' src='/coding.png' alt="cartoon coder picture" />
             </Col>
           </Row>
         </Container>
@@ -32,7 +32,7 @@ export default function Hobbies() {
         <Container className='hobby2'>
           <Row>
             <Col className='winepic col-lg-5 text-center'>
-              <img className='rounded-circle shadow p-1 mb-1 bg-white zoom' src='/wine.jpg' />
+              <img className='rounded-circle shadow p-1 mb-1 bg-white zoom' src='/wine.jpg' alt="Wine Hobby Picture" />
             </Col>
             <Col className='sommelier col-lg-5 text-left'>
               <h2 align="left">Wine Reviews</h2>

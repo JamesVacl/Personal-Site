@@ -12,7 +12,7 @@ export default function About() {
         <Container fluid className='bio'>
           <Row>
             <Col className='col-md-3 headshot'>
-            <img src='/James-Vaclavek-Headshot.jpg' className='img-thumbnail p-1 mb-3 shadow'></img>
+            <img src='/James-Vaclavek-Headshot.jpg' alt="James Headshot" className='img-thumbnail p-1 mb-3 shadow'></img>
             <h4 style={{color:"white"}}>James Vaclavek</h4>
             <h5 className="text-muted">Economic Developer</h5>
             </Col>
