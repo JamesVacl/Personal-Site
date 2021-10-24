@@ -35,7 +35,7 @@ export default function Home() {
             <div className='socials fade-in-fwd'>
               <SocialIcon url="https://twitter.com/JamesVaclavek" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer"/>
               <SocialIcon url="https://www.linkedin.com/in/james-vaclavek" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer"/>
-              <SocialIcon url="https://www.facebook.com/jamie.vaclavek" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer"/>
+              <SocialIcon url="https://medium.com/@jamesvaclavek" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer"/>
               <SocialIcon url="mailto:jamesvaclavek@gmail.com" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer"/>
             </div>
 
