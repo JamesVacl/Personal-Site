@@ -11,13 +11,13 @@ export default function About() {
         <Script src="https://kit.fontawesome.com/d721022113.js" />
         <Container fluid className='bio'>
           <Row>
-            <Col className='col-md-3 headshot'>
-            <img src='/James-Vaclavek-Headshot.jpg' alt="James Headshot" className='img-thumbnail p-1 mb-3 shadow'></img>
-            <h4 style={{color:"white"}}>James Vaclavek</h4>
-            <h5 className="text-muted">Economic Developer</h5>
+            <Col className='col-sm-3 text-center headshot'>
+              <img src='/James-Vaclavek-Headshot.jpg' alt="James Headshot" className='img-thumbnail p-1 mb-3 shadow'></img>
+              <h4 style={{color:"white"}}>James Vaclavek</h4>
+              <h5 className="text-muted">Economic Developer</h5>
             </Col>
 
-            <Col className='col-md-6 text-center'>
+            <Col className='col-sm-6 text-center'>
               <h2>Bio</h2>
               <hr width="100%" align="left" style={{borderColor:'white'}} />
 
@@ -31,21 +31,25 @@ export default function About() {
           </Row>
         </Container>
         <Container className='skills border shadow'>
-          <Row className='hardskills'>
-            <Col className='col-md-12 text-center'>
+          <Row>
+            <Col className='titleSkill text-center'>
+              <br />
               <h2>Skills</h2>
+              <hr></hr>
             </Col>
-            <Col className='col-sm-4 text-center'>
+        </Row>
+          <Row className='hardskills'>
+            <Col className='col-sm-3 text-center'> {/*Add in ClassName Here for CSS of Skills and make responsive*/}
               <i className="fab fa-python fa-3x"></i>
               <h4>Python</h4>
               <p>Pandas, Django, BS4</p>
             </Col>
-            <Col className='col-sm-4 text-center'>
+            <Col className='col-sm-3 text-center'>
               <i className="fas fa-code fa-3x"></i>
               <h4>Web Development</h4>
               <p>HTML, CSS, Bootstrap, Tailwinds</p>
             </Col>
-            <Col className='col-sm-4 text-center'>
+            <Col className='col-sm-3 text-center'>
               <i className="fab fa-js-square fa-3x"></i>
               <h4>Javascript</h4>
               <p>Reactjs, Nextjs, Node.js</p>

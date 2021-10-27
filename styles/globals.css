@@ -66,20 +66,26 @@ main{
 
 /*homepage*/
 .homepage img{
-    width:85%;
-    height: auto;
-    border-radius: 100%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+  flex:content;
+  justify-content:space-between;
+  max-width: 100%;
+  min-width:100px;
+  width:85%;
+  height:auto;
+  margin-top: 10px;
+  border-radius: 100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
+
 .background {
-  display: flex;
-  justify-content:space-evenly;
+  flex:content;
+  justify-content:space-evenly !important;
   height:75vh;
 }
 
-.col-lg-6 h1 {
+.leftSide h1 {
     font-family: 'Oswald', sans-serif;
     letter-spacing:0.5rem;
     width: auto;
@@ -89,7 +95,7 @@ main{
     padding-top:1rem;
 }
 
-.row .col-lg-6>h2{
+.leftSide h2{
   font-family: 'Montserrat', sans-serif;
   word-spacing:0.25rem;
   letter-spacing: 0.2rem;
@@ -98,6 +104,8 @@ main{
 }
 
 ul>li>a.btn{
+  flex:content;
+  justify-content: space-evenly;
   list-style-type: none;
   margin-right: 2rem;
 }
@@ -152,10 +160,12 @@ div.button-block {
 
 /* About Page*/
 .bio {
+  flex:content;
+  justify-content:space-evenly;
   padding-bottom: 4rem;
 }
 
-.row .col-md-3>h2 {
+.row .col-sm-3>h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color:#b4d1d6;
@@ -164,6 +174,7 @@ div.button-block {
 .headshot img{
     width:auto;
     height: 62%;
+    max-height:200px;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -171,22 +182,24 @@ div.button-block {
     margin-bottom:2rem;
 }
 
-.col-md-3 {
+.col-sm-3 {
   font-family:'Montserrat', sans-serif;
   text-align: center;
   vertical-align: middle;
 }
 
-.col-md-6{
+.col-sm-6{
   font-family:'Montserrat', sans-serif;
   color:#b4d1d6;
 }
 
 .skills {
   background-color:#0a032b;
+  flex:content;
+  justify-content: space-between;
 }
 
-.container .col-md-12 {
+.titleSkill {
  font-family:'Montserrat', sans-serif;
  color: khaki;
  padding-bottom: 1rem;

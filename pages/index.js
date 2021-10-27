@@ -1,8 +1,7 @@
 import Layout from '../components/Layout'
 import Meta from '../components/Meta'
 import Navigation from '../components/Navigation'
-import { Container, Row, Col, Button } from 'react-bootstrap';
-import Image from 'next/image'
+import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons'
 
 
@@ -12,7 +11,7 @@ export default function Home() {
     <Meta />
       <Container fluid className='background text-center'>
         <Row>
-          <Col className='col-lg-6 fade-in-fwd'>
+          <Col className='leftSide col-sm fade-in-fwd'>
             <h1>Hi I'm James!</h1>
             <h2>Economic Developer</h2>
             <h2>Programmer</h2>
@@ -40,8 +39,8 @@ export default function Home() {
             </div>
 
           </Col>
-          <Col className='homepage col-lg-6'>
-            <img className='img-fluid img-responsive shadow fade-in-fwd' src='/jv-intro.jpg' alt="James with a dog" ></img>
+          <Col className='homepage col-sm'>
+            <Image className='img-fluid float-right shadow fade-in-fwd' src='/jv-intro.jpg' alt="James with a dog" />
           </Col>
         </Row>
       </Container>
