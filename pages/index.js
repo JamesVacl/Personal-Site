@@ -11,7 +11,7 @@ export default function Home() {
     <Meta />
       <Container fluid className='background text-center'>
         <Row>
-          <Col className='leftSide col-sm fade-in-fwd'>
+          <Col className='leftSide col fade-in-fwd'>
             <h1>Hi I'm James!</h1>
             <h2>Economic Developer</h2>
             <h2>Programmer</h2>
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
 
           </Col>
-          <Col className='homepage col-sm'>
+          <Col className='homepage col'>
             <Image className='img-fluid float-right shadow fade-in-fwd' src='/jv-intro.jpg' alt="James with a dog" />
           </Col>
         </Row>
