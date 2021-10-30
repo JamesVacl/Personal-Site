@@ -1,4 +1,3 @@
-import Layout from '../components/Layout'
 import Meta from '../components/Meta'
 import Navigation from '../components/Navigation'
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';

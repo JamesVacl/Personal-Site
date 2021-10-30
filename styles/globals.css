@@ -74,9 +74,14 @@ main{
 
 
 .background {
-  flex: content;
+  Display:flex;
   justify-content:space-evenly;
-  height:75vh;
+}
+
+@media only screen and (min-height:800px) {
+  .background {
+      height:80vh;
+  }
 }
 
 .leftSide h1 {
