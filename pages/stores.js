@@ -11,10 +11,10 @@ export default function Stores() {
       <Navigation />
       <Container>
         <Row>
-          <Col className='col-lg-4'>
+          <Col className='col-lg-4 col'>
             <img src='/digitalme.png' className='background-image' alt="" />
           </Col>
-          <Col className='col-lg-8 storeTitle'>
+          <Col className='col-lg-8 col storeTitle'>
             <h1>Having Trouble Finding a Job? I can Help!</h1>
           </Col>
         </Row>
@@ -26,7 +26,7 @@ export default function Stores() {
           <hr />
         </Row>
         <Row className='gumroad'>
-          <Col className='col-lg-3'>
+          <Col className='col-3'>
             <Card className='cardGum zoom'>
               <img className='card-img-top embed-responsive-item cardGum' src='/ebook_coverpage.jpg' alt="Cover page of my E-book" />
               <div className='card-body'>
@@ -37,18 +37,18 @@ export default function Stores() {
             </Card>
           </Col>
 
-          <Col className='col-lg-3'>
+          <Col className='col-3'>
             <Card className='cardGum zoom'>
               <img className='card-img-top embed-responsive-item cardGum' src='/Resume_IMG.jpg' alt="" />
               <div className='card-body'>
-                <h5 clasName='card-title'>Resume Template</h5>
+                <h5 className='card-title'>Resume Template</h5>
                 <p className='card-text'>I have created a simple but effective resume template to help you succeed in your job hunt. </p>
                 <a href='https://jamesvacl.gumroad.com/' className='stretched-link' target="_blank" rel="noopener noreferrer"></a>
               </div>
             </Card>
          </Col>
 
-          <Col className='col-lg-3'>
+          <Col className='col-3'>
             <Card className='cardGum zoom'>
               <img className='card-img-top embed-responsive-item cardGum' src='/CoverLetter_IMG.jpg' alt="" />
               <div className='card-body'>

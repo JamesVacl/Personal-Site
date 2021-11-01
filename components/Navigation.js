@@ -10,7 +10,7 @@ const Navigation = () => {
 				<Container fluid>
 					<Navbar.Brand href='/' style={{ color: "white" }}>James Vaclavek</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
-    			<Navbar.Collapse id="basic-navbar-nav">
+					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav as="ul" className='me-auto'>
 							<Nav.Item as="li">
 								<Nav.Link className='text-white' href="/">Home</Nav.Link>

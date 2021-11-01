@@ -10,20 +10,20 @@ export default function Hobbies() {
       <Navigation />
       <Script src="https://kit.fontawesome.com/d721022113.js" />
       <Container fluid className='hobbies'>
-        <Col className='col-lg-12 text-center'>
+        <Col className='col-12 text-center'>
           <h1>Hobbie and Projects</h1>
           <hr></hr>
         </Col>
         <Container className='hobby1'>
           <Row>
-            <Col className='coding col-lg-5 text-right'>
+            <Col className='coding col-4 text-right'>
               <h2>Learning to Code!</h2>
               <hr align="left" />
               <p>During the COVID-19 pandemic I found myself with some extra time on evenings and weekends. I have always been interested in computers and tech, so I decided to use my extra time to learn some basic python skills. Since then, I have also learnt Django, Reactjs and Nextjs, HTML, CSS, and Javascript.</p>
               <p>This has been a ton of fun and i've even started using the skills at work. Check out my Github.</p>
               <Button className="btn-info fa fa-github" href='https://github.com/JamesVacl' target="_blank" rel="noopener noreferrer"> GitHub </Button>
             </Col>
-            <Col className='codepic col-lg-5 text-center'>
+            <Col className='codepic col text-center'>
               <img className='rounded-circle shadow p-1 mb-1 bg-white zoom' src='/coding.png' alt="cartoon coder picture" />
             </Col>
           </Row>
@@ -31,10 +31,10 @@ export default function Hobbies() {
 
         <Container className='hobby2'>
           <Row>
-            <Col className='winepic col-lg-5 text-center'>
+            <Col className='winepic col text-center'>
               <img className='rounded-circle shadow p-1 mb-1 bg-white zoom' src='/wine.jpg' alt="Wine Hobby Picture" />
             </Col>
-            <Col className='sommelier col-lg-5 text-left'>
+            <Col className='sommelier col text-left'>
               <h2 align="left">Wine Reviews</h2>
               <hr align="left" />
               <p>I enjoy wine and I post some reviews of my favourites as a hobby. I named the page Sommelierness (say it out loud for a laugh) because I want my reviews to be easy to read even for the most casual drinkers.</p>

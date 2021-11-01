@@ -22,6 +22,11 @@ main{
   display:flex;
 }
 
+.navbar-toggler-icon {
+  background-color: white;
+  border-radius:30%;
+}
+
 .nav ul{
     padding: 0;
     list-style-type: none;
@@ -45,7 +50,7 @@ main{
   background-image:linear-gradient(to right, #2f3a54, #1e0646);
   background-blend-mode:normal;
   height:auto!important;
-  font-family:'Inter', sans-serif;
+  font-family:'Montserrat', sans-serif;
   min-height:100%;
   padding-top:1.75rem;
   padding-bottom:1.15rem;
@@ -64,7 +69,6 @@ main{
   flex:content;
   justify-content:space-between;
   position:relative;
-  min-width:100px;
   width:85%;
   height:auto;
   border-radius: 100%;
@@ -72,6 +76,13 @@ main{
   filter: grayscale(100%);
 }
 
+@media only screen and (max-width:500px) {
+    .homepage img {
+    width: 210rem!important;
+    margin-top: 2rem;
+  }
+}
+/*use media queries for better look on mobile here*/
 
 .background {
   Display:flex;
@@ -81,7 +92,7 @@ main{
 @media only screen and (min-height:800px) {
   .background {
       height:80vh;
-  }
+    }
 }
 
 .leftSide h1 {
