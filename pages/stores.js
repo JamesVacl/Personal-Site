@@ -26,7 +26,7 @@ export default function Stores() {
           <hr />
         </Row>
         <Row className='gumroad'>
-          <Col className='col-3'>
+          <Col className='col'>
             <Card className='cardGum zoom'>
               <img className='card-img-top embed-responsive-item cardGum' src='/ebook_coverpage.jpg' alt="Cover page of my E-book" />
               <div className='card-body'>
@@ -37,7 +37,7 @@ export default function Stores() {
             </Card>
           </Col>
 
-          <Col className='col-3'>
+          <Col className='col'>
             <Card className='cardGum zoom'>
               <img className='card-img-top embed-responsive-item cardGum' src='/Resume_IMG.jpg' alt="" />
               <div className='card-body'>
@@ -48,7 +48,7 @@ export default function Stores() {
             </Card>
          </Col>
 
-          <Col className='col-3'>
+          <Col className='col'>
             <Card className='cardGum zoom'>
               <img className='card-img-top embed-responsive-item cardGum' src='/CoverLetter_IMG.jpg' alt="" />
               <div className='card-body'>

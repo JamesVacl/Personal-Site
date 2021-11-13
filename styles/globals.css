@@ -65,34 +65,63 @@ main{
 }
 
 /*homepage*/
+.homepage {
+
+}
+
 .homepage img{
   flex:content;
   justify-content:space-between;
   position:relative;
-  width:85%;
+  width:75%;
   height:auto;
   border-radius: 100%;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 
+/*use media queries for better look on mobile here*/
 @media only screen and (max-width:500px) {
     .homepage img {
-    width: 210rem!important;
+    width: auto;
     margin-top: 2rem;
   }
-}
-/*use media queries for better look on mobile here*/
+  .socials > .social-icon {
+    margin-top:2rem;
+    margin-right:none;
+  }
 
-.background {
-  Display:flex;
-  justify-content:space-evenly;
+  .button-block ul>li {
+    display:flex;
+    margin-right: 1rem;
+    margin-top: 2rem;
+  }
+
+  .winepic img {
+    width: 25%;
+    margin-right:100px;
+  }
+
+  .codepic img {
+    width: 50%;
+    height:100%;
+    margin-left:100px;
+}
+
 }
 
 @media only screen and (min-height:800px) {
   .background {
       height:80vh;
     }
+  .homepage img {
+    width: 55%;
+  }
+}
+
+
+.background {
+  justify-content:space-evenly;
 }
 
 .leftSide h1 {
@@ -113,15 +142,10 @@ main{
   color:#b4d1d6;
 }
 
-
 .button-block ul>li {
   display:inline-block;
   margin-right: 2rem;
   list-style-type: none;
-}
-
-.button-block {
-  padding-top: 2rem;
 }
 
 
@@ -255,14 +279,14 @@ main{
 }
 
 .codepic img {
-  height: 20em;
-  width: 20em;
+  height: 100%;
+  width: 50%;
   margin-right:5rem;
 }
 
 .winepic img{
-  height: 25rem;
-  width: auto;
+  height: auto;
+  width: 50%;
   margin-left:10rem;
 }
 
