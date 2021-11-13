@@ -104,9 +104,9 @@ main{
 
   .codepic img {
     width: 50%;
-    height:100%;
+    height:auto;
     margin-left:100px;
-}
+  }
 
 }
 
@@ -114,6 +114,7 @@ main{
   .background {
       height:80vh;
     }
+
   .homepage img {
     width: 55%;
   }
@@ -329,7 +330,6 @@ main{
 }
 
 .gumroad {
-  display:flex;
   justify-content:space-evenly;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -347,8 +347,8 @@ main{
 }
 
 .card-img-top {
-  width: 50rem;
-  height:55vh;
+  width: 75%;
+  height:100%;
   object-fit:cover;
 }
 
