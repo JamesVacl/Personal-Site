@@ -23,7 +23,7 @@ export default function Home() {
         </Row>
         <Row className='no-gutters'>
           <Col className='col-sm-6 col text-center'>
-            <div className='button-block'>
+            <div className='button-block fade-in-fwd'>
               <ul>
                 <li>
                   <Button href='/about' variant="outline-info">About Me</Button>
