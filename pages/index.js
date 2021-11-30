@@ -38,7 +38,7 @@ export default function Home() {
             </div>
           </Col>
         </Row>
-          <Col className='col-sm-6 col text-center'>
+          <Col className='col-sm-6 col text-center fade-in-fwd'>
             <div className='socials'>
               <SocialIcon url="https://twitter.com/JamesVaclavek" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer" />
               <SocialIcon url="https://www.linkedin.com/in/james-vaclavek" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer" />
