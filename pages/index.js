@@ -13,8 +13,8 @@ export default function Home() {
           <Col className='leftSide col-sm-6 col-12 fade-in-fwd'>
             <h1>Hi I'm James!</h1>
             <h2>Economic Developer</h2>
-            <h2>Programmer</h2>
-            <h2>Freelancer</h2>
+            <h2>Transit Manager</h2>
+            <h2>Technology Enthusiast</h2>
             <h2>Dog Lover!</h2>
           </Col>
           <Col className='homepage col-sm-6 col-12'>
@@ -28,12 +28,6 @@ export default function Home() {
                 <li>
                   <Button href='/about' variant="outline-info">About Me</Button>
                 </li>
-                <li>
-                  <Button href='/hobbies' variant="outline-info">Hobbies</Button>
-                </li>
-                <li>
-                  <Button href='/stores' variant="outline-info">Freelance</Button>
-                </li>
               </ul>
             </div>
           </Col>
@@ -42,7 +36,6 @@ export default function Home() {
             <div className='socials'>
               <SocialIcon url="https://twitter.com/JamesVaclavek" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer" />
               <SocialIcon url="https://www.linkedin.com/in/james-vaclavek" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer" />
-              <SocialIcon url="https://medium.com/@jamesvaclavek" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer" />
               <SocialIcon url="mailto:jamesvaclavek@gmail.com" style={{ height: 30, width: 30 }} bgColor='darkturquoise' target="_blank" rel="noopener noreferrer" />
             </div>
           </Col>

@@ -91,11 +91,22 @@ main{
     margin-right:none;
   }
 
-  .button-block ul>li {
-    display:flex;
-    margin-right: 1rem;
-    margin-top: 2rem;
-  }
+    .button-block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      /* Adjust as needed */
+    }
+
+    .button-block ul {
+      padding: 0;
+      /* To remove any default padding */
+    }
+
+    .button-block ul>li {
+      list-style-type: none;
+    }
 
   .winepic img {
     width: 25%;
@@ -193,7 +204,7 @@ main{
   }
 }
 
-/* About Page*/
+/* About Page */
 .bio {
   flex:content;
   justify-content:space-evenly;
@@ -247,14 +258,21 @@ main{
 }
 
 .hardskills h2{
-  margin-top: 1.25rem;
+  margin-top: 1.0 rem;
+  margin-bottom: 1.0 rem;
+}
+
+.row-space {
+  margin-bottom: 1rem;
+  /* Adjust the value to your preference */
 }
 
 .softskills i {
-  margin-top: 3rem;
+  margin-top: 1.o rem;
+  margin-bottom: 1.0 rem;
 }
 
-/*Hobbies*/
+/*Hobbies
 
 .hobbies {
   padding-bottom: 1rem;
@@ -301,8 +319,9 @@ main{
   padding-top: 2rem;
   text-align: left;
 }
+*/
 
-/* Stores */
+/* Stores
 
 .storeTitle h1{
   font-family: 'Montserrat', sans-serif;
@@ -367,14 +386,16 @@ main{
   border-color:#668091!important;
   color:#b4d1d6!important;
 }
+*/
 
+/*
 .zoom {
-  transition: transform .2s; /* Animation */
+  transition: transform .2s;
   margin: 0 auto;
 }
 
 .zoom:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) *//*
 }
 
 .stretched-link::after {
@@ -388,3 +409,4 @@ main{
     content: "";
     background-color: rgba(0,0,0,0);
 }
+*/

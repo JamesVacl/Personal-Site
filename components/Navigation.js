@@ -18,12 +18,6 @@ const Navigation = () => {
 							<Nav.Item as="li">
 								<Nav.Link className='text-white' href="/about">About</Nav.Link>
 							</Nav.Item>
-							<Nav.Item as="li">
-								<Nav.Link className='text-white' href="/hobbies">Hobbies</Nav.Link>
-							</Nav.Item>
-							<Nav.Item as="li">
-								<Nav.Link className='text-white' href="/stores">Freelance</Nav.Link>
-							</Nav.Item>
 						</Nav>
 
 						{/*right side of navbar */}
@@ -34,10 +28,6 @@ const Navigation = () => {
 
 							<Nav.Item as="li">
 								<SocialIcon url="https://www.linkedin.com/in/james-vaclavek" style={{ height: 25, width: 25, marginRight: 20 }} bgColor='white' target="_blank" rel="noopener noreferrer"/>
-							</Nav.Item>
-
-							<Nav.Item as="li">
-								<SocialIcon url="https://medium.com/@jamesvaclavek" style={{ height: 25, width: 25, marginRight: 20 }} bgColor='white' target="_blank" rel="noopener noreferrer"/>
 							</Nav.Item>
 
 							<Nav.Item as="li">
