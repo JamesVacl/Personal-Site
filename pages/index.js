@@ -2,6 +2,7 @@ import Meta from '../components/Meta'
 import Navigation from '../components/Navigation'
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons'
+import { Analytics } from "@vercel/analytics/react"
 
 
 export default function Home() {
